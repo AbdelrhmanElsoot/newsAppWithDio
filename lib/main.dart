@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:news_app_learning_dio/core/networking/dio_helper.dart';
 import 'package:news_app_learning_dio/core/styles/app_color.dart';
 import 'package:news_app_learning_dio/features/home_screen/home_screen.dart';
 
-//213756a7eaa7444b88250277b5139a5d
+//
 void main() {
+  DioHeler.initDio();
   runApp(const MyApp());
 }
 
